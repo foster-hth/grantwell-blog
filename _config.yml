@@ -3,6 +3,8 @@ description: Insights on public safety grant management, compliance automation, 
 url: "https://blog.grantwell.co"
 baseurl: ""
 
+future: true
+
 theme: minima
 
 # Branding
@@ -41,3 +43,4 @@ sass:
   style: compressed
 include:
   - assets/css/custom.css
+
