@@ -81,9 +81,5 @@
       {% endfor %}
     </ul>
   </main>
-
-  <footer>
-    © 2025 Grantwell — Purpose-built grant management for public safety agencies.
-  </footer>
 </body>
 </html>
