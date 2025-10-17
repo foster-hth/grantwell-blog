@@ -1,6 +1,6 @@
 title: Grantwell Blog
 description: Insights on public safety grant management, compliance, and funding automation.
-theme: minima
+markdown: kramdown
 minima:
   skin: classic
   social_links:
