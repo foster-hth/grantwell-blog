@@ -16,13 +16,13 @@
     header {
       background-color: #003366;
       color: white;
-      padding: 1.5rem 2rem;
+      padding: 2rem 1rem;
       text-align: center;
     }
-    header h1 {
-      margin: 0;
-      font-size: 1.75rem;
-      letter-spacing: 0.5px;
+    header p {
+      margin-top: 0.5rem;
+      font-weight: 300;
+      font-size: 1rem;
     }
     main {
       max-width: 800px;
@@ -42,9 +42,14 @@
       color: #003366;
       text-decoration: none;
       font-weight: 600;
+      font-size: 1.1rem;
     }
     .post-list a:hover {
       text-decoration: underline;
+    }
+    .post-list small {
+      color: #666;
+      font-size: 0.85rem;
     }
     footer {
       background-color: #f5f5f5;
@@ -59,10 +64,11 @@
 <body>
   <header>
     <h1>Grantwell Blog</h1>
-    <p style="font-weight:300; font-size:1rem;">Insights on public safety grant management, funding automation, and compliance.</p>
+    <p>Insights on public safety grant management, funding automation, and compliance.</p>
   </header>
+
   <main>
-    <h2 style="font-size:1.25rem; margin-bottom:1rem;">Latest Posts</h2>
+    <h2 style="font-size:1.3rem; margin-bottom:1rem;">Latest Posts</h2>
     <ul class="post-list">
       {% for post in site.posts %}
         <li>
@@ -75,6 +81,7 @@
       {% endfor %}
     </ul>
   </main>
+
   <footer>
     © 2025 Grantwell — Purpose-built grant management for public safety agencies.
   </footer>
