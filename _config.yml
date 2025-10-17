@@ -36,6 +36,7 @@ defaults:
       author: "Grantwell Technologies"
       background: "#ffffff"
       accent_color: "#1b3a70"
+
 sass:
   style: compressed
 include:
