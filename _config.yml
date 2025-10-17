@@ -1,46 +1,12 @@
 title: Grantwell Blog
-description: Insights on public safety grant management, compliance automation, and funding technology for municipalities and law enforcement.
-url: "https://blog.grantwell.co"
-baseurl: ""
-
-future: true
-
+description: Insights on public safety grant management, compliance, and funding automation.
 theme: minima
-
-# Branding
 minima:
   skin: classic
   social_links:
-    github: https://github.com/foster-hth
-    website: https://grantwell.co
-  header_pages:
-    - index.md
-
-# SEO & Appearance
-show_excerpts: true
-paginate: 6
-paginate_path: "/page:num/"
+    - { platform: website,     user_url: https://grantwell.co }
+    - { platform: linkedin,    user_url: https://www.linkedin.com/company/grantwell }
 markdown: kramdown
-
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
-
-# Custom colors (optional CSS)
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Grantwell Technologies"
-      background: "#ffffff"
-      accent_color: "#1b3a70"
-
-sass:
-  style: compressed
-include:
-  - assets/css/custom.css
 
