@@ -1,0 +1,19 @@
+---
+layout: default
+title: Grantwell Blog
+---
+
+<div class="eyebrow">Insights on public safety grant management, funding automation, and compliance.</div>
+
+<h2>Latest Posts</h2>
+<ul class="post-list">
+  {% for post in site.posts limit: 20 %}
+    <li>
+      <a href="{{ post.url | relative_url }}"><strong>{{ post.title }}</strong></a><br/>
+      <small>{{ post.date | date: "%B %d, %Y" }}</small>
+      {% if post.excerpt %}
+        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
